@@ -1,0 +1,62 @@
+/* ===== Background Video ===== */
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* ===== Body ===== */
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(100, 99, 99);
+}
+
+/* ===== Container ===== */
+.container {
+  padding: 20px;
+  border: 2px solid whitesmoke;
+  width: 500px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center items horizontally inside container */
+  justify-content: center; /* center items vertically inside container */
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent background */
+  backdrop-filter: blur(5px); /* smooth background blur */
+  text-align: center;
+}
+
+/* ===== Heading ===== */
+.head {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* ===== Input ===== */
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 80%; /* Make input field responsive */
+  max-width: 300px;
+}
+
+input:hover {
+  background-color: rgb(158, 156, 152);
+}
+
+input:focus {
+  border: 0px;
+  background-color: beige;
+}
